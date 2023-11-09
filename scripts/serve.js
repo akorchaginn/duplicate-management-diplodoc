@@ -19,7 +19,7 @@ class Server {
   // read configuration
   constructor(parameters = {}) {
     const {
-      autoOpen = false,
+      autoOpen = true,
 
       watchPattern = 'docs/**/*',
 
