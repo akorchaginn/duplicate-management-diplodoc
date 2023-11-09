@@ -1,6 +1,6 @@
 title: Duplicate management
 links:
   - title: Admin guide
-    href:
+    href: admin.md
   - title: User guide
     href: user.md
