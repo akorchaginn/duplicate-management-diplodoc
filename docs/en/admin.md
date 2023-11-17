@@ -1,4 +1,4 @@
-# Duplication management
+# Duplicate management
 
 ### Installation instructions
 #### Preparation
