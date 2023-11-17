@@ -1,12 +1,5 @@
 # Duplicate Management
 
-Table of content
-- [User experience](#user_experience)
-- [Deduplication](#deduplication)
-- [Merging](#merging)
-- [Duplicate collection](#duplicate_collection)
-
-
 ## User experience
 
 ### Deduplication
