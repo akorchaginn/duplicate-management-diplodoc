@@ -6,7 +6,7 @@
 
 When creating or updating a record, the database is searched for duplicates according to the Duplicate Rules settings
 
-On records that have duplicates, an information panel appears with a Show Duplicate button:
+On records that have duplicates, an information panel appears with a **Show Duplicates** button:
 
 ![alt text for screen readers](../images/image4.jpg)
 
