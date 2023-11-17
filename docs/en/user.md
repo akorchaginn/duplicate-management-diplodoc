@@ -55,42 +55,42 @@ Creating a new rule:
 4. **Attachment Inheritance**. Allows users to inherit attachments from deleted posts.
 
 5. **Conditions**. If desired, you can specify the conditions under which records will be excluded from the search for duplicates.
-- a. After adding a new line, specify the exception condition:
-![alt text for screen readers](../images/image10.jpg)
+   - a. After adding a new line, specify the exception condition:
+   ![alt text for screen readers](../images/image10.jpg)
 
-- b. Add your own exception condition logic.
-  The system automatically generates a formula with the AND operator. Activate the “Custom filter logic” switch to set your logic:
-![alt text for screen readers](../images/image1.jpg)
+   - b. Add your own exception condition logic.
+     The system automatically generates a formula with the AND operator. Activate the “Custom filter logic” switch to set your logic:
+   ![alt text for screen readers](../images/image1.jpg)
 
 6. **Matching rules**. This section of the settings determines which objects and by which fields we compare records with each other.
    Here you can add multiple rules one at a time, where each line represents a rule to compare against a separate field. You can use your own filter logic to implement any requirement:
-![alt text for screen readers](../images/image15.jpg)
+   ![alt text for screen readers](../images/image15.jpg)
 
-- a. **Filed**. Select the object field whose match is considered a criterion for identifying duplicates.
+   - a. **Filed**. Select the object field whose match is considered a criterion for identifying duplicates.
 
-- b. **Match blank fields**. If “Match blank fields” is selected for a field, and that field is blank in both records being compared, then they are considered duplicates.
+   - b. **Match blank fields**. If “Match blank fields” is selected for a field, and that field is blank in both records being compared, then they are considered duplicates.
 
-- c. **Matching Method**. The matching method determines how a specific field in a record is compared to the same field in another record.
-The exact match method searches for strings that exactly match a pattern. Fuzzy matching methods look for strings that approximately match a pattern.
-The system supports the following fuzzy matching methods:
-  - Soundex
-  - Levenshtein
-  - Metaphone Ru
-  - Phone number
+   - c. **Matching Method**. The matching method determines how a specific field in a record is compared to the same field in another record.
+   The exact match method searches for strings that exactly match a pattern. Fuzzy matching methods look for strings that approximately match a pattern.
+   The system supports the following fuzzy matching methods:
+     - Soundex
+     - Levenshtein
+     - Metaphone Ru
+     - Phone number
 
-- d. **Match with model**. Don't limit yourself to one model. This functionality will allow you to identify duplicates when records match with other models:
-![alt text for screen readers](../images/image14.jpg)
+   - d. **Match with model**. Don't limit yourself to one model. This functionality will allow you to identify duplicates when records match with other models:
+   ![alt text for screen readers](../images/image14.jpg)
 
-When a rule is configured in this way, the search is performed both between models and across records within the model A=B | A=A | B=B.
+    When a rule is configured in this way, the search is performed both between models and across records within the model A=B | A=A | B=B.
 
 
 7. You can prevent the creation of duplicates. Select an action when creating a new record and when updating an existing one:
-![alt text for screen readers](../images/image6.jpg)
-Our Import module allows you to load only unique records from a file containing duplicates. In this case, unique records will be loaded and duplicates will be skipped. Once the import is complete, a file with the download result will be available. .
+    ![alt text for screen readers](../images/image6.jpg)
+    Our Import module allows you to load only unique records from a file containing duplicates. In this case, unique records will be loaded and duplicates will be skipped. Once the import is complete, a file with the download result will be available. .
 
 8. Activate your rule.
    When all the settings are completed, and you are ready to rid the system of duplicates, click **Activate**:
-![alt text for screen readers](../images/image11.jpg)
+   ![alt text for screen readers](../images/image11.jpg)
 
 ### Duplicate collection
 A table that stores information about all takes, such as:
