@@ -5,10 +5,10 @@
 **We assume that your odoo environment is already configured correctly**
 - Make sure your DB user has privileges to create functions and extensions
 - Install boolean_parser for python env, use ```pip install boolean_parser```. You may need to downgrade greenlet package to version 0.4.17 after installing boolean_parser, use ```pip install greenlet==0.4.17```
-- Place the files of the following modules to the odoo modules directory
+- Place the files of the following modules to the odoo modules directory  (its can be found in the distribution folder)
     - [queue_job](https://github.com/OCA/queue/tree/15.0/queue_job)
-    - upgrade_hook (it can be found in the distribution folder)
-    - duplicate_import (it can be found in the distribution folder)
+    - upgrade_hook
+    - duplicate_import
 - Place the files of the Duplication management module to the odoo modules directory
 - Restart odoo application - this is necessary to start background runners
 
