@@ -1,7 +1,9 @@
 # Duplicate Management
 
 Table of content
-- [Duplicate rules](#duplicate_rules)
+- [User experience](#user_experience)
+- [Deduplication](#deduplication)
+- [Merging](#merging)
 - [Duplicate collection](#duplicate_collection)
 
 
@@ -45,7 +47,6 @@ After clicking “Merge” button, the main record is updated to inherit the fie
 In the settings there is a section for administering the "Duplicate Management" functionality
 ![alt text for screen readers](../images/image12.jpg)
 
-<a id="duplicate_rules"></a>
 ### Duplicate rules
 
 This section stores all the rules for identifying duplicates:
@@ -98,7 +99,6 @@ Our Import module allows you to load only unique records from a file containing 
    When all the settings are completed, and you are ready to rid the system of duplicates, click **Activate**:
 ![alt text for screen readers](../images/image11.jpg)
 
-<a id="duplicate_collection"></a>
 ### Duplicate collection
 A table that stores information about all takes, such as:
 - Duplication rule name
@@ -107,7 +107,6 @@ A table that stores information about all takes, such as:
 - Link to post
 ![alt text for screen readers](../images/image16.jpg)
 
-<a id="import"></a>
 ### Import module
 
 The accompanying "Import" module allows you not to worry about duplicates in the downloaded files. Only unique records are loaded. Import shows the status of records
@@ -122,7 +121,6 @@ In our example, the record was not created since such a record already exists in
 
 ![alt text for screen readers](../images/image2.png)
 
-<a id="tips"></a>
 ### Tips and useful features
 
 - The set of fields in the table header corresponds to your List view settings and can be changed to suit your needs:
