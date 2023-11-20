@@ -34,8 +34,6 @@ Marked attachments are inherited into the original entry.
 After clicking “Merge” button, the main record is updated to inherit the fields, and all other records are archived.
 
 
-![alt text for screen readers](../images/image7.jpg)
-
 ## Administration
 In the settings there is a section for administering the "Duplicate Management" functionality
 ![alt text for screen readers](../images/image12.jpg)
