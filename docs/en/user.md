@@ -4,23 +4,21 @@
 
 ### Deduplication
 
-When creating or updating a record, the database is searched for duplicates according to the Duplicate Rules settings
-
-On records that have duplicates, an information panel appears with a **Show Duplicates** button:
+Every time when a record is under creation or update, duplicate management service performs a cross-check of the new data input against existing records in the database according to the Duplicate Rules settings. In case at least one duplicate is detected a notification appears with a "Show Duplicates" button.
 
 ![alt text for screen readers](../images/image4.jpg)
 
 ### Merging
-After click on "Show Duplicate" button, a list of duplicate records opens:
+The click on "Show Duplicates" button opens the list of all the records considered as duplicates.
 
 ![alt text for screen readers](../images/image17.jpg)
 
-The user checks the records that need to be merged and clicks on “Next” button.
-The system is capable of combining up to 3 records simultaneously.
+The user may go through all the detected duplicates and mark (in a checkbox) which records should be merged. The system allows to combine up to 3 records at a time. To proceed with the duplicates merge the user needs to click on “Next” button.
 
-A form opens that maps record fields.
-On the left is the name of the field, and on the right are the values of the duplicate fields.
-The user marks the original entry in the header, then notes the values that will be written to the main entry:
+
+On this page the User may choose which values to keep in the final output.
+The field names are located on the left side of the screen and the correspondent values from the chosen duplicates are on the right side.
+The user defines first which record he/she wants to keep as a basis for the final output (by activating the “Original” indicator) and then the user chooses the values that should be kept in the final record.
 
 ![alt text for screen readers](../images/image13.jpg)
 
