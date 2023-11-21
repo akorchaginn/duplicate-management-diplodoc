@@ -8,7 +8,7 @@
 - Place the files of the following modules to the odoo modules directory (they can be found in the distribution package)
     - [queue_job](https://github.com/OCA/queue/tree/15.0/queue_job)
     - upgrade_hook
-    - duplicate_import
+    - gbc_import_export
 - Place the files of the Duplication management module to the odoo modules directory
 - Restart odoo application - this is necessary to start background runners
 
